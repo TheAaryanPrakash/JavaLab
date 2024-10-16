@@ -19,7 +19,7 @@ class Subject {
         } else if (subjectMarks >= 40) {
             grade = 5;
         } else {
-            grade = 0; // Fail
+            grade = 0;
         }
     }
 }
