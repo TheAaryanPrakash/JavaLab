@@ -77,11 +77,7 @@ class CurAcct extends Account {
 public class Bank {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-       
-        // Create a savings account
         SavAcct savAcc = new SavAcct("Alice", 12345, 1000, 5);
-       
-        // Create a current account
         CurAcct curAcc = new CurAcct("Bob", 67890, 2000, 500, 50);
        
         System.out.println("Choose Account Type:\n1. Savings Account\n2. Current Account");
